@@ -4,7 +4,7 @@ Image used for running node/js tests on our ci server
 
 ## Build command
 
-    docker build -t ekreative/node .
+    docker build --pull -t ekreative/node .
 
 ## Build an app
 
